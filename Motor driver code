@@ -79,8 +79,7 @@ void RIGHT()
   analogWrite(enb,speedr+9);
   digitalWrite(l1,LOW);
   digitalWrite(l2,HIGH);
-  digitalWrite(r1,LOW);
-  digitalWrite(r2,HIGH); 
+  digitalwrite(l2,mod);
 }
 
 
